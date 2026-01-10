@@ -1,0 +1,94 @@
+body {
+    background-color: #14213d;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2.5%;
+    width: 68vw;
+}
+
+.title-bar {
+    height: 20vh;
+    width: 39vw;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 6rem;
+}
+
+.fire {
+    position: relative;
+    left: 2rem;
+    bottom: 0.2rem;
+    width: fit-content;
+    scale: 145%;
+}
+
+.content-box {
+    border: 2.5px solid #fca311;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 1.5%;
+    padding: 1.5%;
+    background-color: #3f262e;
+    color: #fca311;
+}
+
+#navcolumn {
+    flex: 1 1 0;
+}
+
+#content {
+    flex: 3 1 0;
+}
+
+.scrimblo {
+    scale: 75%;
+    align-self: center;
+}
+
+#socials {
+    flex: 1 1 0;
+}
+
+.footer {
+    width: 58vw;
+    border: 2.5px solid #fca311;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 1.5%;
+    background-color: #3f262e;
+    color: #fca311;
+    text-align: center;
+    font-size: 10px;
+}
+
+.skeleton1 {
+    position: absolute;
+    bottom: 2vh;
+}
+
+.skeleton2 {
+    position: absolute;
+    left: 84.5vw;
+    bottom: 2vh;
+    transform: scaleX(-1);
+}
