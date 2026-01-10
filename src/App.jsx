@@ -6,6 +6,7 @@ import antiai from "./assets/antiai_button.png";
 import palestine from "./assets/palestine.gif";
 import hell from "./assets/hell.gif";
 import saul from "./assets/bettercallsaul.png";
+import sevenup from "./assets/7-up.gif";
 import "./App.css";
 
 function App() {
@@ -37,13 +38,15 @@ function App() {
             </ul>
           </div>
           <div id="content" className="content-box">
-            <span style={{ display: "flex", flexDirection: "row" }}>
+            <span
+              style={{ display: "flex", flexDirection: "row", height: "33vh" }}
+            >
               <div style={{ display: "flex", flexDirection: "column" }}>
                 <img src={scrimblo} className="scrimblo" alt="scrimblo"></img>
                 <p
                   style={{
                     position: "relative",
-                    bottom: "2.5rem",
+                    bottom: "3.5rem",
                     left: "2rem",
                   }}
                 >
@@ -61,16 +64,20 @@ function App() {
             </span>
           </div>
           <div id="socials" className="content-box">
-            <h1>Socials</h1>
-            <ul>
+            <h4 className="divider-subtitle">links!</h4>
+            <ul style={{ listStyleType: "none", paddingRight: "5vh" }}>
               <li>
-                <a href="https://github.com/pyrosawyer">GitHub</a>
+                <pre>
+                  github: <a href="https://github.com/pizzalawl">pizzalawl</a>
+                </pre>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/pyrosawyer/">LinkedIn</a>
+                <pre>discord: pyrosawyer</pre>
               </li>
               <li>
-                <a href="mailto:pyrosawyer@gmail.com">Email</a>
+                <pre>
+                  email: <a href="mailto:pizzalawls@gmail.com">mailme</a>
+                </pre>
               </li>
             </ul>
           </div>
