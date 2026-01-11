@@ -6,7 +6,7 @@ import antiai from "./assets/antiai_button.png";
 import palestine from "./assets/palestine.gif";
 import hell from "./assets/hell.gif";
 import saul from "./assets/bettercallsaul.png";
-import sevenup from "./assets/7-up.gif";
+import guestbook from "./assets/guestbook.gif";
 import "./App.css";
 
 function App() {
@@ -23,20 +23,6 @@ function App() {
           <h1 className="title">pyrosawyer's website!!</h1>
         </div>
         <div className="content-container">
-          <div id="navcolumn" className="content-box">
-            <h2>Navigation</h2>
-            <ul>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#projects">Projects</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
           <div id="content" className="content-box">
             <span
               style={{ display: "flex", flexDirection: "row", height: "33vh" }}
@@ -53,7 +39,7 @@ function App() {
                   <i>scrimblo, site mascot</i>
                 </p>
               </div>
-              <p>
+              <p style={{ marginRight: "2vw", marginTop: "3vh" }}>
                 welcome to my website(my own piece of the pie, one might say..)!
                 this is pretty much the dumping ground for anything
                 productive/creative i am doing or might do in the near future.
@@ -80,6 +66,14 @@ function App() {
                 </pre>
               </li>
             </ul>
+            <h4 className="divider-subtitle">guestbook</h4>
+            <a href="https://pyrosawyer.atabook.org">
+              <img
+                src={guestbook}
+                alt="guestbook"
+                style={{ scale: "150%", marginTop: "3.5vh" }}
+              />
+            </a>
           </div>
         </div>
         <div className="footer">
